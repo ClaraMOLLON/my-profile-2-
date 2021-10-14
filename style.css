@@ -1,0 +1,132 @@
+body {
+	background-color: pink;
+	background-image: url(images/fond.jpg);
+	color: purple;
+	font-family: Courier;
+}
+
+h1 {
+	color: rgb(50, 150, 200);
+	font-family: cursive;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size:  60px;
+	text-align: center;
+}
+
+
+ul{
+	list-style: none;
+	text-align: center;
+}
+li{
+	display: inline;
+}
+
+p{
+	olor: rgb(50, 200, 200);
+	font-family: fantasy;
+	font-weight: 20;
+	letter-spacing: 5px;
+	font-size:  20px;
+	text-align: center;
+
+}
+
+h2{
+	color: rgb(50, 150, 200);
+	font-family: cursive;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size:  60px;
+	text-align: center;
+}
+h3{
+	color: rgb(50, 150, 200);
+	font-family: cursive;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size:  60px;
+	text-align: center;
+
+}
+h4{
+	color: rgb(50, 150, 200);
+	font-family: cursive;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size:  60px;
+	text-align: center;
+}
+h5{
+	color: rgb(50, 150, 200);
+	font-family: cursive;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size:  60px;
+	text-align: center;
+}
+
+div{
+	border-radius: 15px;
+	padding: 25px 35px;
+	box-shadow:  5px 15px 30px rgba(55, 55, 55, 5000); 
+	margin: 20px 40px ;
+}
+
+.container{
+	background-color: lightpink;
+	width: 800px;
+	margin: 20px auto;
+
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    background-color: purple;
+  }
+}
+
+.card-white{
+	background-color: lightpink;
+	padding: 20px 30px;
+	border-radius: 10px;
+	box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.3);
+	text-align: center;
+	margin: 20px 0;
+	opacity: 0,2;
+
+}
+
+.img-profile {
+	width: 300px;
+	border-radius: 10%;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+.img-bordered{
+	border: 3px solid purple;
+}
+
+.img-small{
+	width: 40px;
+}
+
+.img-voyage{
+	width: 200px;
+	border-radius: 10%;
+	
+}
+
+.img-kedge{
+	width: 100px;
+
+}
+
+
+
+
+
